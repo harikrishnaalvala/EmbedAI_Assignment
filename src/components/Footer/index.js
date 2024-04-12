@@ -2,7 +2,7 @@ import { BsStars } from "react-icons/bs";
 
 import "./index.css";
 
-const FooterComponent = () => {
+const Footer = () => {
   return (
     <div className="footer-bg">
       <div className="d-flex flex-column align-items-center">
@@ -43,4 +43,4 @@ const FooterComponent = () => {
   );
 };
 
-export default FooterComponent;
+export default Footer;

@@ -36,7 +36,7 @@ const profileMenuList = [
 ];
 
 const LeftBar = () => {
-  const userName = "Aman Kumar";
+  const userName = "Harikrishna";
   const [showLeftBar, onToggleLeftBar] = useState(true);
 
   useEffect(() => {

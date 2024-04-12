@@ -8,7 +8,7 @@ import AnimationCard from "../AnimationCard";
 import SlickCards from "../SlickCards";
 import TryThisCards from "../TryThisCards";
 import TrySayingCards from "../TrySayingCards";
-import FooterComponent from "../FooterComponent";
+import Footer from "../Footer";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -1171,8 +1171,8 @@ const Home = () => {
     <div className="d-flex justify-content-between align-items-center">
       <div className="d-none d-md-block ">
         <div className="d-flex align-items-center ">
-          <p className="user-profile-char-p">A</p>
-          <p className="user-name-p">Aman Kumar</p>
+          <p className="user-profile-char-p">H</p>
+          <p className="user-name-p">Harikrishna</p>
         </div>
       </div>
       <div className="input-container ml-auto">
@@ -1249,7 +1249,7 @@ const Home = () => {
           <TrySayingCards cardList={trySayingCardsList} />
 
           {/* footer component */}
-          <FooterComponent />
+          <Footer/>
         </div>
       </div>
     </div>
